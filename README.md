@@ -3,8 +3,18 @@
 
 
 
+###Usage
 
+     let nrTabView2 = NRTabView()
 
+     nrTabView2.frame = CGRect(x: 0, y: 100, width: self.view.bounds.width, height: 50)
+     
+     nrTabView2.backgroundColor = .yellow
+     
+     nrTabView2.delegate = self
+     
+     nrTabView2.buttonShape = .square // cirlce or square
+     nrTabView2.numberOfButtons = 10 
 
 
 
