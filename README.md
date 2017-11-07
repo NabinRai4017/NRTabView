@@ -5,17 +5,17 @@
 
 ###Usage
 
-     let nrTabView = NRTabView()
+          let nrTabView = NRTabView()
 
-     nrTabView.frame = CGRect(x: 0, y: 100, width: self.view.bounds.width, height: 50)
+          nrTabView.frame = CGRect(x: 0, y: 100, width: self.view.bounds.width, height: 50)
      
-     nrTabView.backgroundColor = .yellow
+          nrTabView.backgroundColor = .yellow
      
-     nrTabView.delegate = self
+          nrTabView.delegate = self
      
-     nrTabView.buttonShape = .square
+          nrTabView.buttonShape = .square
      
-     nrTabView.numberOfButtons = 10 
+          nrTabView.numberOfButtons = 10 
 
 
 
