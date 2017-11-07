@@ -13,7 +13,8 @@
      
      nrTabView.delegate = self
      
-     nrTabView.buttonShape = .square // cirlce or square
+     nrTabView.buttonShape = .square
+     
      nrTabView.numberOfButtons = 10 
 
 
