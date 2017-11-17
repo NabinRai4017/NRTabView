@@ -3,13 +3,24 @@ Custom page control indicator which has animation of eclipse effect.
 
 ![ezgif com-video-to-gif](https://user-images.githubusercontent.com/28722125/32489228-5e78432a-c3d7-11e7-83d9-6524472ef8ec.gif)
 
-## Usage
-let nrTabView = NRTabView()
-          nrTabView.frame = CGRect(x: 0, y: 100, width: self.view.bounds.width, height: 50)
-          nrTabView.backgroundColor = .yellow
-          nrTabView.delegate = self
-          nrTabView.buttonShape = .square
-          nrTabView.numberOfButtons = 10 
+## How to Use in your project ?
+
+###### Storyboard use 
+
+1. Drag and drop **NRTabView** Folder to your project.
+2. Place a view where you want to use page control.
+3. Assign NRTabView class to that view.
+
+Now you are ready to go.
+
+
+###### Programatic use 
+let pageControl = NRTabView()
+pageControl.frame = CGRect(x: 0, y: 100, width: self.view.bounds.width, height: 50)
+pageControl.backgroundColor = .yellow
+pageControl.delegate = self
+pageControl.buttonShape = .square
+pageControl.numberOfButtons = 10
 
 
  ###### Licence
