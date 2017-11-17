@@ -15,7 +15,7 @@ Now you are ready to go.
 
 
 ###### Programatic use 
-``
+```
 let pageControl = NRTabView()
 pageControl.frame = CGRect(x: 0, y: 100, width: self.view.bounds.width, height: 50)
 pageControl.backgroundColor = .yellow
