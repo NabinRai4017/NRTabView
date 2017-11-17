@@ -1,9 +1,7 @@
 # NRTabView
+Custom page control indicator which has animation of eclipse effect. 
 
-
-
-
-###Usage
+#Usage
 
 
           let nrTabView = NRTabView()
